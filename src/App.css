@@ -1,0 +1,1342 @@
+/* Menu Hamburguer */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    top: 5px;
+    right: 100px;
+    position: absolute;
+}
+
+.menu-bars:hover {
+    color: #769BD1;
+}
+
+.menu-bars {
+    margin-left: 35px;
+    font-size: 35px;
+    width: 35px;
+    color: #C3C3C3;
+    background: none;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 100vh;
+    background-color: #1B59B2;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    transition: 850ms;
+    z-index: 100;
+
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-text a {
+    text-decoration: none;
+    font-size: 45px;
+    color: #FFFFFF;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-text a:hover {
+    color: #E0D4C6;
+    text-decoration: line-through;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    color: #FAFAFA;
+    list-style: none;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 10px;
+    right: 100px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.nav-text a h3 {
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+
+/* Headers */
+.header {
+    height: 808px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    --bs-gutter-x: 0;
+}
+
+.header .banner {
+    position: absolute;
+}
+
+.header .banner-mobile {
+    display: none;
+}
+
+.contenedor-titulo {
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    left: 270px;
+    top: -30px;
+    width: 500px;
+}
+
+.icono-principal {
+   height: 100px;
+   display: flex;
+   justify-content: flex-start;
+   position: relative;
+   left: 80px;
+   top: 50px;
+}
+
+
+
+.contenedor-titulo h1 {
+    color: #1B59B2;
+    font-size: 56px;
+    text-align: start;
+    margin-bottom: 25px;
+    line-height: 56px;
+    font-weight: 400;
+}
+
+.contenedor-titulo a {
+    background-color: #1B59B2;
+    color: #FFFFFF;
+    border-radius: 23px;
+    padding: 6px 70px 10px;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.contenedor-titulo a:hover {
+    background-color: #b2c8e6;
+    color: #1B59B2;
+}
+
+.tag-list {
+    display: flex;
+    width: 100%;
+    height: 725px;
+    background-color: #1B59B2;
+    justify-content: flex-start;
+    position: absolute;
+    padding: 170px 0 0 35px;
+    z-index: 40;
+    top: 0;
+}
+
+
+/* Section Enfoque */
+.section-enfoque {
+    width: 100%;
+    height: 677px;
+    background-color:  #FFFFFF;
+    padding: 60px;
+    z-index: 20;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section-enfoque h2 {
+    color: #1B59B2;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-enfoque p {
+    color: #1B59B2;
+    font-size: 20px;
+    text-align: center;
+    width: 512px;
+    margin-bottom: 80px;
+}
+
+.icono-enfoque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 400px;
+}
+
+.icono-enfoque img {
+    width: 26%;
+    margin-bottom: 15px;
+}
+
+.icono-enfoque img:hover {
+    transform: rotate(10deg);
+}
+
+.icono-enfoque p {
+    color: #1B59B2;
+    margin: 0;
+}
+
+.contenedor-iconos-enfoque {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Section Organizaciones */
+.section-organizaciones {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 1229px;
+    padding: 60px;
+}
+
+.section-organizaciones h2 {
+    color: #1B59B2;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contenedor-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-sector {
+    margin: 35px 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-sector img {
+    margin-bottom: 20px;
+}
+
+.card-sector span {
+    font-size: 20px;
+    text-align: center;
+    color: #B5B5B5;
+    margin-bottom: 20px;
+}
+
+.card-sector p {
+    font-size: 20px;
+    color: #1B59B2;
+    text-align: center;
+    width: 360px;
+}
+
+.card-sector a {
+    background-color: #1B59B2;
+    color: #FFFFFF;
+    border-radius: 23px;
+    padding: 6px 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card-sector a:hover {
+    color: #1B59B2;
+    background-color: #a5bad8;
+}
+
+
+/* Formulario */
+.contenedor-formulario {
+    background-color: #1B59B2;
+    width: 100%;
+    height: 1070px;
+    padding: 60px;
+}
+
+.contenedor-formulario div h2 {
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.contenedor-formulario div p {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input , select {
+    width: 600px;
+    height: 60px;
+    background-color: #1B59B2;
+    border: 1px solid #FAFAFA;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    outline: none; 
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 35px; 
+}
+
+option {
+    font-size: 20px;
+}
+
+::placeholder { color: #769BD1; }
+
+
+.contenedor-form a {
+    background-color: #FFFFFF;
+    color: #1B59B2;
+    border-radius: 23px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 35px;
+}
+
+.contenedor-form a:hover {
+    background-color: #B4B4B4;
+    color: #FFF;
+}
+
+
+/* Footer */
+footer {
+   background-color: #FAFAFA;
+   width: 100%;
+   height: 183px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+footer h4 {
+   font-size: 18px;
+   color: #D6D6D6;
+   font-weight: 300;
+}  
+
+footer .tag-nav a {
+   font-size: 18px;
+   color: #B4B4B4;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+footer .tag-nav a:hover {
+    color: #1B59B2;
+    font-weight: 500;
+}
+
+
+
+/* BRAKEPOINTS */
+
+
+@media (max-width: 413.98px) {
+    .navbar {
+        height: 0;
+        right: 50px;
+    }
+
+    .menu-bars {
+        font-size: 30px;
+        top: 10px;
+        position: relative;
+    }
+
+    .navbar-toggle {
+        top: 0;
+        right: 50px;
+    }
+
+    .nav-menu {
+        left: -333%;
+        position: fixed;
+    }
+
+    .nav-text a h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 110px;
+    }
+
+    .header .banner {
+        display: none;
+    }
+
+    .header {
+        height: 628px;
+    }
+    
+    .header .banner-mobile {
+        display: block;
+        position: absolute;
+    }
+
+    .logo-headers {
+        width: 70%;
+    }
+
+    .icono-principal {
+       left: 0;
+       top: 0;
+       width: 200px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .menu-hamburguer {
+        height: 100px;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-titulo {
+        justify-content: space-between;
+        top: -55px;
+        align-items: center;
+        left: 0;
+      
+
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .contenedor-titulo a {
+        font-size: 20px;
+        padding: 6px 65px;
+        margin-top: 200px;
+    }
+
+    .section-enfoque {
+        height: auto;
+    }
+
+    .contenedor-iconos-enfoque {
+        flex-direction: column;
+    }
+
+    .contenedor-iconos-enfoque .icono-enfoque p {
+        font-size: 20px;
+    }
+
+    .icono-enfoque img {
+        width: 30%;
+    }
+
+    .icono-enfoque {
+        margin: 0;
+        width: 375px;
+    }
+
+    .section-enfoque h2 {
+        font-size: 25px;
+    }
+
+    .section-enfoque p {
+        width: 240px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .section-organizaciones h2 {
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .section-organizaciones {
+        padding: 0;
+        height: auto;
+    }
+
+    .card-sector span {
+        font-size: 16px;
+    }
+
+    .card-sector p {
+        font-size: 16px;
+        width: 260px;
+    }
+
+    .card-sector a {
+        font-size: 16px;
+    }
+
+    .card-sector {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn-bottom {
+        margin-bottom: 50px;
+    }
+
+    .contenedor-formulario div h2 {
+        font-size: 25px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-formulario div p {
+        font-size: 16px;
+    }
+
+    input, select {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        padding-left: 20px;
+        margin-bottom: 35px;
+    }
+
+    .contenedor-form a {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .contenedor-form {
+        margin-top: 40px;
+    }
+
+    .contenedor-formulario {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    footer .tag-nav a {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-top: 15px;
+    }
+
+    footer .tag-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 575.98px) {  
+    .navbar {
+        height: 0;
+        right: 50px;
+    }
+
+    .menu-bars {
+        font-size: 30px;
+        top: 10px;
+        position: relative;
+    }
+
+    .navbar-toggle {
+        top: 0;
+        right: 50px;
+    }
+
+    .nav-menu {
+        left: -333%;
+        position: fixed;
+    }
+
+    .nav-text a h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 110px;
+    }
+
+    .header .banner {
+        display: none;
+    }
+
+    .header {
+        height: 628px;
+    }
+    
+    .header .banner-mobile {
+        display: block;
+        position: absolute;
+    }
+
+    .logo-headers {
+        width: 70%;
+    }
+
+    .icono-principal {
+       left: 0;
+       top: 0;
+       width: 200px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .menu-hamburguer {
+        height: 100px;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-titulo {
+        justify-content: space-between;
+        top: -55px;
+        align-items: center;
+        left: 0;
+      
+
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .contenedor-titulo a {
+        font-size: 20px;
+        padding: 6px 65px;
+        margin-top: 200px;
+    }
+
+    .section-enfoque {
+        height: auto;
+    }
+
+    .contenedor-iconos-enfoque {
+        flex-direction: column;
+    }
+
+    .contenedor-iconos-enfoque .icono-enfoque p {
+        font-size: 20px;
+    }
+
+    .icono-enfoque img {
+        width: 30%;
+    }
+
+    .icono-enfoque {
+        margin: 0;
+    }
+
+    .section-enfoque h2 {
+        font-size: 25px;
+    }
+
+    .section-enfoque p {
+        width: 240px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .section-organizaciones h2 {
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .section-organizaciones {
+        padding: 0;
+        height: auto;
+    }
+
+    .card-sector span {
+        font-size: 16px;
+    }
+
+    .card-sector p {
+        font-size: 16px;
+        width: 260px;
+    }
+
+    .card-sector a {
+        font-size: 16px;
+    }
+
+    .card-sector {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn-bottom {
+        margin-bottom: 50px;
+    }
+
+    .contenedor-formulario div h2 {
+        font-size: 25px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-formulario div p {
+        font-size: 16px;
+    }
+
+    input, select {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        padding-left: 20px;
+        margin-bottom: 35px;
+    }
+
+    .contenedor-form a {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .contenedor-form {
+        margin-top: 40px;
+    }
+
+    .contenedor-formulario {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    footer .tag-nav a {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-top: 15px;
+    }
+
+    footer .tag-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar {
+        height: 0;
+        right: 50px;
+    }
+
+    .navbar-toggle {
+        top: 0;
+        right: 50px;
+    }
+
+    .nav-menu {
+        left: -333%;
+        position: fixed;
+    }
+
+    .nav-text a h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 110px;
+    }
+
+    .header .banner {
+        display: none;
+    }
+
+    .header {
+        height: 950px;
+    }
+    
+    .header .banner-mobile {
+        display: block;
+        position: absolute;
+    }
+
+    .logo-headers {
+        width: 70%;
+    }
+
+    .icono-principal {
+       left: 0;
+       top: 0;
+       width: 200px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .menu-hamburguer {
+        height: 100px;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-titulo {
+        justify-content: space-between;
+        top: -145px;
+        align-items: center;
+        left: 0;
+        width: 576px;
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .contenedor-titulo a {
+        font-size: 20px;
+        padding: 6px 65px;
+        margin-top: 200px;
+    }
+
+    .section-enfoque {
+        height: auto;
+    }
+
+    .contenedor-iconos-enfoque {
+        flex-direction: column;
+    }
+
+    .contenedor-iconos-enfoque .icono-enfoque p {
+        font-size: 20px;
+    }
+
+    .icono-enfoque img {
+        width: 30%;
+    }
+
+    .icono-enfoque {
+        margin: 0;
+    }
+
+    .section-enfoque h2 {
+        font-size: 25px;
+    }
+
+    .section-enfoque p {
+        width: 240px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .section-organizaciones h2 {
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .section-organizaciones {
+        padding: 0;
+        height: auto;
+    }
+
+    .card-sector span {
+        font-size: 16px;
+    }
+
+    .card-sector p {
+        font-size: 16px;
+        width: 260px;
+    }
+
+    .card-sector a {
+        font-size: 16px;
+    }
+
+    .card-sector {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn-bottom {
+        margin-bottom: 50px;
+    }
+
+    .contenedor-formulario div h2 {
+        font-size: 25px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-formulario div p {
+        font-size: 16px;
+    }
+
+    input, select {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        padding-left: 20px;
+        margin-bottom: 35px;
+    }
+
+    .contenedor-form a {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .contenedor-form {
+        margin-top: 40px;
+    }
+
+    .contenedor-formulario {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    footer .tag-nav a {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-top: 15px;
+    }
+
+    footer .tag-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar {
+        height: 0;
+        right: 50px;
+    }
+
+    .navbar-toggle {
+        top: 0;
+        right: 50px;
+    }
+
+    .nav-menu {
+        left: -333%;
+        position: fixed;
+    }
+
+    .nav-text a h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 110px;
+    }
+
+    .header .banner {
+        display: block;
+    }
+
+    .header {
+        height: 450px;
+    }
+    
+    .header .banner-mobile {
+        display: none;
+    }
+
+    .logo-headers {
+        width: 70%;
+    }
+
+    .icono-principal {
+       left: 0;
+       top: 0;
+       width: 200px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .menu-hamburguer {
+        height: 100px;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-titulo {
+       left: 100px;
+       top: -50px;
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+
+    .contenedor-titulo a {
+        font-size: 20px;
+        padding: 6px 40px;
+        
+    }
+
+    .section-enfoque {
+        height: auto;
+    }
+
+    .contenedor-iconos-enfoque {
+        flex-direction: column;
+    }
+
+    .contenedor-iconos-enfoque .icono-enfoque p {
+        font-size: 20px;
+    }
+
+    .icono-enfoque img {
+        width: 30%;
+    }
+
+    .icono-enfoque {
+        margin: 0;
+    }
+
+    .section-enfoque h2 {
+        font-size: 25px;
+    }
+
+    .section-enfoque p {
+        width: 240px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .section-organizaciones h2 {
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .section-organizaciones {
+        padding: 0;
+        height: auto;
+    }
+
+    .card-sector span {
+        font-size: 16px;
+    }
+
+    .card-sector p {
+        font-size: 16px;
+        width: 260px;
+    }
+
+    .card-sector a {
+        font-size: 16px;
+    }
+
+    .card-sector {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn-bottom {
+        margin-bottom: 50px;
+    }
+
+    .contenedor-formulario div h2 {
+        font-size: 25px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-formulario div p {
+        font-size: 16px;
+    }
+
+    input, select {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        padding-left: 20px;
+        margin-bottom: 35px;
+    }
+
+    .contenedor-form a {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .contenedor-form {
+        margin-top: 40px;
+    }
+
+    .contenedor-formulario {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    footer .tag-nav a {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-top: 15px;
+    }
+
+    footer .tag-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .header {
+        height: 555px;
+    }
+
+    .contenedor-titulo {
+        height: 150px;
+        left: 120px;
+        top: -100px;
+    }
+
+    .contenedor-titulo h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .contenedor-titulo a {
+        padding: 2px 35px;
+        font-size: 24px;
+    }
+
+    .icono-enfoque {
+        margin-bottom: 0;
+        width: 160px;
+    }
+
+    .icono-enfoque img {
+        width: 68%;
+    }
+
+    .section-organizaciones {
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .header {
+        height: 808px;
+    }
+
+    .contenedor-titulo {
+        height: 150px;
+        left: 100px;
+        top: -230px;
+    }
+
+    .icono-enfoque {
+        width: 335px;
+        margin-bottom: 0;
+    }
+
+    .icono-enfoque img {
+        width: 35%;
+    }
+
+    .section-enfoque {
+        top: -80px;
+    }
+
+    .section-organizaciones {
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1400px) { 
+     .contenedor-titulo {
+        left: 190px;
+        top: -185px;
+     }
+
+     .icono-enfoque {
+         width: 400px;
+     }
+}
+
+@media (min-width: 1500px) { 
+    .contenedor-titulo {
+        left: 240px;
+        top: -160px;
+     }
+}
+
+@media (min-width: 1600px) { 
+    .contenedor-titulo {
+        left: 280px;
+        top: -140px;
+     }
+}
+
+
+@media (min-width: 1920px) { 
+    .contenedor-titulo {
+        left: 430px;
+        top: -255px;
+     }
+
+     .header {
+         height: 1080px;
+     }
+
+     .card-sector {
+         width: 415px;
+     }
+}
+
+
+

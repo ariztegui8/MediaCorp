@@ -1,0 +1,15 @@
+* {
+    @font-face {
+        font-family: "TT Commons";
+        src: url('../src/Font/TT-Commons-Regular.otf');
+      }
+    font-family: "TT Commons", cursive;
+}
+
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
